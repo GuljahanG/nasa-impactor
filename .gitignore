@@ -1,0 +1,50 @@
+# ---- Global / OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Editors & IDEs ----
+.vscode/
+.idea/
+
+# ---- Node / React (front/) ----
+front/node_modules/
+front/.env
+front/.env.*        # .env.development, etc.
+front/.cache/
+front/dist/
+front/build/
+front/.next/
+front/out/
+front/coverage/
+front/npm-debug.log*
+front/yarn-debug.log*
+front/yarn-error.log*
+
+# If you use PNPM:
+front/pnpm-lock.yaml # keep or remove this line if you WANT to commit it
+# (Usually you DO commit lockfiles; delete this ignore if so.)
+
+# ---- Python (back/) ----
+back/venv/
+back/.venv/
+back/__pycache__/
+back/.pytest_cache/
+back/.mypy_cache/
+back/*.py[cod]
+back/.env
+back/.env.*
+back/.python-version
+back/instance/
+back/.ipynb_checkpoints/
+
+# Framework/tool specifics (uncomment if you generate these)
+# back/migrations/          # (Flask-Alembic etc.) Usually you DO commit migrations; leave this commented.
+# back/.coverage
+# back/htmlcov/
+
+# ---- Logs & dumps ----
+*.log
+logs/
+*.pid
+*.seed
+*.dump
