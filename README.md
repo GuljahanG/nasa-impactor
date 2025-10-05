@@ -5,6 +5,8 @@ Monorepo with **front** (React) and **back** (Python/Flask).
 
 ## 📦 Structure
 
+```text
 nasa/
-├─ front/ # React app (UI, 3D globe)
-└─ back/ # Python API (Flask), data adapters, integrations
+├─ front/               # React app (UI, 3D globe)
+└─ back/                # Python API (Flask), data adapters, integrations
+```
