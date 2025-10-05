@@ -3,6 +3,8 @@
 Interactive visualization & simulation tool for near-Earth asteroids (NEAs).
 Monorepo with **front** (React) and **back** (Python/Flask).
 
+🎥 Demo: https://www.youtube.com/watch?v=hixjAaWvdYY
+
 ## 📦 Structure
 
 ```text
